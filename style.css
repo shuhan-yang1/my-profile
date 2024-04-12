@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+  background-color: #282c34;
+  color: #DBE2EF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #F9F7F7;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 1000px;
+  margin: 40px auto;
+}
+
+@media (max-width: 1080px) {
+
+  .container {
+    width: 820px;
+  }
+}
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
+
+.card-brown {
+  background-color: #5e4619;   
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: background-color 2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-brown:hover {
+  background-color: #5c5850; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.img-circle {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#introduction a, .list-inline li a {
+  background-color: #000000;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#introduction a:hover, .list-inline li a:hover {
+  background-color: #f39c12;
+  transform: scale(1.05); 
+}
+
+a {
+  position: relative;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f7f7f7;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
